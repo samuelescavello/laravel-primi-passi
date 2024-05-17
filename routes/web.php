@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome',['name'=> 'Samuele','surname'=> 'Scavello']);
+    $user = ['name'=> 'Samuele','surname'=> 'Scavello'];
+    return view('welcome',compact('user'));
+    
 });
 Route::get('/presentazione', function () {
     return view('presentazione',['pre'=> 'ciao sono Laravel']);

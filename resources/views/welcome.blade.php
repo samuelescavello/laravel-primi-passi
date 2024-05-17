@@ -17,7 +17,9 @@
 
 <body>
 
-    <h1>Benvenuto {{$name}} {{$surname}} !!</h1>
+    <h1 class="">Benvenuto {{$user['name']}} {{$user['surname']}} !!</h1>
+    <a class="btn btn-primary" href="/presentazione" role="button">presentazione</a>
+    
 
 </body>
 
