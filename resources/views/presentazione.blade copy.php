@@ -17,7 +17,7 @@
 
 <body>
 
-    <h1>Benvenuto {{$name}} {{$surname}} !!</h1>
+    <h2>{{$pre}}</h2>
 
 </body>
 
